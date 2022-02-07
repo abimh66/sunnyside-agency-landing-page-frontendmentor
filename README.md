@@ -30,7 +30,7 @@ Objektif pada project ini:
 **Tampilan Desktop**
 ![Tampilan Desktop](./screenshot/screenshot-desktop.png)
 
-**Tampilan Mobile**
+**Tampilan Mobile**<br>
 ![Tampilan Mobile](./screenshot/screenshot-mobile.png)
 
 ### Links
