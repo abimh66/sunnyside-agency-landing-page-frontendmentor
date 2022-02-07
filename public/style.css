@@ -639,10 +639,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
-.overflow-y-hidden{
-  overflow-y: hidden;
-}
-
 .rounded-3xl{
   border-radius: 1.5rem;
 }
@@ -681,7 +677,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-headerMobile{
-  background-image: url("../public/images/mobile/image-header.jpg");
+  background-image: url("../public/images/mobile-header.jpg");
 }
 
 .bg-transformMobile{
@@ -940,7 +936,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .sm\:bg-headerDesktop{
-    background-image: url("../public/images/desktop/image-header.jpg");
+    background-image: url("../public/images/desktop-header.jpg");
   }
 
   .sm\:bg-transformDesktop{
