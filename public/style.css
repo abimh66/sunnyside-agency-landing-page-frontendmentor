@@ -677,7 +677,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-headerMobile{
-  background-image: url("../public/images/mobile-header.jpg");
+  background-image: url("../public/images/mobile/image-header.jpg");
 }
 
 .bg-transformMobile{
@@ -936,7 +936,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .sm\:bg-headerDesktop{
-    background-image: url("../public/images/desktop-header.jpg");
+    background-image: url("../public/images/desktop/image-header.jpg");
   }
 
   .sm\:bg-transformDesktop{

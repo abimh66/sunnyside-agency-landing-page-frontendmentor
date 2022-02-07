@@ -16,8 +16,8 @@ module.exports = {
         greyBlue: "hsl(232, 10%, 55%)",
       },
       backgroundImage: {
-        headerDesktop: 'url("../public/images/desktop-header.jpg")',
-        headerMobile: 'url("../public/images/mobile-header.jpg")',
+        headerDesktop: 'url("../public/images/desktop/image-header.jpg")',
+        headerMobile: 'url("../public/images/mobile/image-header.jpg")',
         transformDesktop: 'url("../public/images/desktop/image-transform.jpg")',
         transformMobile: 'url("../public/images/mobile/image-transform.jpg")',
         standDesktop: 'url("../public/images/desktop/image-stand-out.jpg")',
