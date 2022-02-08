@@ -484,6 +484,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 10rem;
 }
 
+.bottom-5{
+  bottom: 1.25rem;
+}
+
+.left-1\/2{
+  left: 50%;
+}
+
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.bottom-16{
+  bottom: 4rem;
+}
+
+.bottom-20{
+  bottom: 5rem;
+}
+
+.top-60{
+  top: 15rem;
+}
+
+.top-72{
+  top: 18rem;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -571,12 +603,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1rem;
 }
 
+.w-\[85\%\]{
+  width: 85%;
+}
+
 .grow{
   flex-grow: 1;
 }
 
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer{
   cursor: pointer;
+}
+
+.resize{
+  resize: both;
 }
 
 .grid-cols-1{
@@ -674,14 +723,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#91D3C5\]{
   --tw-bg-opacity: 1;
   background-color: rgb(145 211 197 / var(--tw-bg-opacity));
-}
-
-.bg-headerMobile{
-  background-image: url("../public/images/mobile/image-header.jpg");
-}
-
-.bg-transformMobile{
-  background-image: url("../public/images/mobile/image-transform.jpg");
 }
 
 .bg-standMobile{
@@ -855,6 +896,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(168 34% 41% / var(--tw-text-opacity));
 }
 
+.image-cover{
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .hover\:bg-opacity-70:hover{
   --tw-bg-opacity: 0.7;
 }
@@ -864,7 +912,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:opacity-70:hover{
+  opacity: 0.7;
+}
+
+.group:hover .group-hover\:block{
+  display: block;
+}
+
 @media (min-width: 640px){
+  .sm\:bottom-0{
+    bottom: 0px;
+  }
+
+  .sm\:top-72{
+    top: 18rem;
+  }
+
   .sm\:order-first{
     order: -9999;
   }
@@ -935,14 +999,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .sm\:bg-headerDesktop{
-    background-image: url("../public/images/desktop/image-header.jpg");
-  }
-
-  .sm\:bg-transformDesktop{
-    background-image: url("../public/images/desktop/image-transform.jpg");
-  }
-
   .sm\:bg-standDesktop{
     background-image: url("../public/images/desktop/image-stand-out.jpg");
   }
@@ -1009,8 +1065,17 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 100px;
   }
 
+  .sm\:px-\[80px\]{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
   .sm\:pt-28{
     padding-top: 7rem;
+  }
+
+  .sm\:pt-20{
+    padding-top: 5rem;
   }
 
   .sm\:text-left{
