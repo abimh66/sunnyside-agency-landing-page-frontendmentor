@@ -35,8 +35,8 @@ Objektif pada project ini:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Codee](https://github.com/abimh66/sunnyside-agency-landing-page-main)
+- Live Site URL: [live site](https://sunnyside-abimh66.netlify.app/)
 
 ## Proses
 
